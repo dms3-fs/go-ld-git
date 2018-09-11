@@ -1,4 +1,4 @@
-package ipldgit
+package dms3ldgit
 
 import (
 	"bufio"
@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	blocks "github.com/ipfs/go-block-format"
-	cid "github.com/ipfs/go-cid"
-	node "github.com/ipfs/go-ipld-format"
-	mh "github.com/multiformats/go-multihash"
+	blocks "github.com/dms3-fs/go-block-format"
+	cid "github.com/dms3-fs/go-cid"
+	node "github.com/dms3-fs/go-ld-format"
+	mh "github.com/dms3-mft/go-multihash"
 )
 
 func DecodeBlock(block blocks.Block) (node.Node, error) {

@@ -1,11 +1,11 @@
-package ipldgit
+package dms3ldgit
 
 import (
 	"errors"
 
-	cid "github.com/ipfs/go-cid"
-	node "github.com/ipfs/go-ipld-format"
-	mh "github.com/multiformats/go-multihash"
+	cid "github.com/dms3-fs/go-cid"
+	node "github.com/dms3-fs/go-ld-format"
+	mh "github.com/dms3-mft/go-multihash"
 )
 
 type Blob []byte

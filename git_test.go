@@ -1,4 +1,4 @@
-package ipldgit
+package dms3ldgit
 
 import (
 	"archive/tar"
@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	node "github.com/ipfs/go-ipld-format"
+	node "github.com/dms3-fs/go-ld-format"
 )
 
 type GitObj interface {

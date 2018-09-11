@@ -1,4 +1,4 @@
-package ipldgit
+package dms3ldgit
 
 import (
 	"bytes"
@@ -7,8 +7,8 @@ import (
 	"io"
 
 	"errors"
-	cid "github.com/ipfs/go-cid"
-	node "github.com/ipfs/go-ipld-format"
+	cid "github.com/dms3-fs/go-cid"
+	node "github.com/dms3-fs/go-ld-format"
 )
 
 type Tree struct {
